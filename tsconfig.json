@@ -1,0 +1,17 @@
+
+{
+    "compilerOptions": {
+      "target": "ES6",                          // JavaScript version to compile to
+      "module": "commonjs",                     // Use commonjs module system
+      "strict": true,                           // Enable strict type checking
+      "esModuleInterop": true,                  // Allow import/export compatibility
+      "skipLibCheck": true,                     // Skip type checking for library files
+      "outDir": "./dist",                       // Output directory for compiled files
+      "rootDir": "./src",                       // Root directory of source files
+      "resolveJsonModule": true,                // Allow importing JSON files
+      "types": ["node", "jest"]                 // Include Node.js and Jest types
+    },
+    "include": ["src/**/*", "test/**/*"],       // Include all source and test files
+    "exclude": ["node_modules", "dist"]         // Exclude node_modules and dist directories
+  }
+
